@@ -1,0 +1,956 @@
+digraph "Diagram" {
+  splines = "ortho";
+  pad = "1.0";
+  nodesep = "0.60";
+  ranksep = "0.75";
+  fontname = "Sans-Serif";
+  fontsize = "15";
+  dpi = "200";
+  rankdir = "BT";
+  compound = "true";
+  fontcolor = "#222222";
+  edge [
+    color = "#D5871488",
+    penwidth = 2,
+    arrowhead = "dot",
+    arrowtail = "dot",
+  ];
+  node [
+    shape = "box",
+    style = "rounded",
+    fixedsize = true,
+    width = 1.7,
+    height = 1.7,
+    labelloc = "c",
+    imagescale = true,
+    fontname = "Sans-Serif",
+    fontsize = 8,
+    margin = 8,
+  ];
+  subgraph "Dev-BLEAGovBaseStandalone" {
+    subgraph "cluster-SubGraph.Dev-BLEAGovBaseStandalone" {
+      graph [
+        label = "Dev-BLEAGovBaseStandalone",
+        labelloc = "b",
+        labeljust = "l",
+        margin = "10",
+        fontsize = "16",
+        penwidth = "2",
+        pencolor = "#888888",
+        style = "filled,rounded",
+        fillcolor = "#e4e4e4",
+      ];
+      subgraph "cluster-SubGraph.Iam" {
+        graph [
+          label = "Iam",
+          labelloc = "b",
+          labeljust = "l",
+          margin = "10",
+          fontsize = "16",
+          penwidth = "2",
+          pencolor = "#888888",
+          style = "filled,rounded",
+          fillcolor = "#d6d6d6",
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/SysAdminPolicy" [
+          label = " SysAdminPolicy",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/SysAdminRole" [
+          label = " SysAdminRole",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/SysAdminGroup" [
+          label = " SysAdminGroup",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/IamAdminPolicy" [
+          label = " IamAdminPolicy",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/IamAdminRole" [
+          label = " IamAdminRole",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/IamAdminGroup" [
+          label = " IamAdminGroup",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/InstanceOpsPolicy" [
+          label = " InstanceOpsPolicy",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/InstanceOpsRole" [
+          label = " InstanceOpsRole",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/InstanceOpsGroup" [
+          label = " InstanceOpsGroup",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/ReadOnlyAdminPolicy" [
+          label = " ReadOnlyAdminPolicy",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/ReadOnlyAdminRole" [
+          label = " ReadOnlyAdminRole",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Iam/ReadOnlyAdminGroup" [
+          label = " ReadOnlyAdminGroup",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+      }
+      subgraph "cluster-SubGraph.Logging" {
+        graph [
+          label = "Logging",
+          labelloc = "b",
+          labeljust = "l",
+          margin = "10",
+          fontsize = "16",
+          penwidth = "2",
+          pencolor = "#888888",
+          style = "filled,rounded",
+          fillcolor = "#d6d6d6",
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/CloudTrailAccessLogBucket" [
+          label = "\nCloudTrailAccessLogBu",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Storage/64/Arch_Amazon-S3-Standard_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.4819999999999998,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/CloudTrailBucket" [
+          label = " CloudTrailBucket",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Storage/64/Arch_Amazon-S3-Standard_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.266,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/CloudTrailKey" [
+          label = " CloudTrailKey",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Key-Management-Services_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.266,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/CloudTrailLogGroup" [
+          label = " CloudTrailLogGroup",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Resource/Res_Management-Governance/Res_48_Dark/Res_Amazon-Cloudwatch_Logs_48_Dark_gen.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.266,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/CloudTrail" [
+          label = " CloudTrail",
+          fontsize = 12,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/ConfigRole" [
+          label = " ConfigRole",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/ConfigRecorder" [
+          label = " Config\nConfigurationRecorder\nConfigRecorder",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.6979999999999995,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/ConfigBucket" [
+          label = " ConfigBucket",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Storage/64/Arch_Amazon-S3-Standard_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.266,
+        ];
+        "Dev-BLEAGovBaseStandalone/Logging/ConfigDeliveryChannel" [
+          label = " Config\nDeliveryChannel\nConfigDeliveryChannel",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.898,
+        ];
+      }
+      subgraph "cluster-SubGraph.Detection" {
+        graph [
+          label = "Detection",
+          labelloc = "b",
+          labeljust = "l",
+          margin = "10",
+          fontsize = "16",
+          penwidth = "2",
+          pencolor = "#888888",
+          style = "filled,rounded",
+          fillcolor = "#d6d6d6",
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/GuardDutyDetector" [
+          label = " GUARDDUTY DETECTOR\nGuardDutyDetector",
+          fontsize = 12,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/SecurityHubRole" [
+          label = " IAM\nServiceLinkedRole\nSecurityHubRole",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.898,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/SecurityHub" [
+          label = " SECURITYHUB HUB\nSecurityHub",
+          fontsize = 12,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/DefaultSgClosedRule" [
+          label = " DefaultSgClosedRule",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/DefaultSgRemediationRole" [
+          label = "\nDefaultSgRemediationR",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/DefaultSgRemediation" [
+          label = " Config\nDefaultSgRemediation",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+          label = " AlarmTopic",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_AWS-Simple-Notification-Service_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.266,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/SecurityAlarmEmail" [
+          label = " SecurityAlarmEmail",
+          fontsize = 12,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/DefaultSgClosedEventRule" [
+          label = "\nDefaultSgClosedEventR",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_Amazon-EventBridge_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/AwsHealthEventRule" [
+          label = " AwsHealthEventRule",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_Amazon-EventBridge_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/SgChangedEventRule" [
+          label = " SgChangedEventRule",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_Amazon-EventBridge_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/NetworkAclChangeEventRule" [
+          label = "\nNetworkAclChangeEvent",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_Amazon-EventBridge_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/CloudTrailChangeEventRule" [
+          label = "\nCloudTrailChangeEvent",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_Amazon-EventBridge_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/IAMPolicyChangeFilter" [
+          label = "\nIAMPolicyChangeFilter",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/cloudwatch_metric_filter.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.4819999999999998,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/IAMPolicyChangeAlarm" [
+          label = " IAMPolicyChangeAlarm",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_Amazon-CloudWatch_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/UnauthorizedAttemptsFilter" [
+          label = "\nUnauthorizedAttemptsF",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/cloudwatch_metric_filter.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.4819999999999998,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/UnauthorizedAttemptsAlarm" [
+          label = "\nUnauthorizedAttemptsA",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_Amazon-CloudWatch_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/NewAccessKeyCreatedFilter" [
+          label = "\nNewAccessKeyCreatedFi",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/cloudwatch_metric_filter.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.4819999999999998,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/NewAccessKeyCreatedAlarm" [
+          label = "\nNewAccessKeyCreatedAl",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_Amazon-CloudWatch_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/RootUserActivityFilter" [
+          label = "\nRootUserActivityFilte",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/cloudwatch_metric_filter.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 2,
+          height = 2.4819999999999998,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/RootUserActivityAlarm" [
+          label = "\nRootUserActivityAlarm",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_Amazon-CloudWatch_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.682,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/SecurityHubEventRule" [
+          label = " SecurityHubEventRule",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_Amazon-EventBridge_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Detection/GuardDutyEventRule" [
+          label = " GuardDutyEventRule",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_App-Integration/Arch_64/Arch_Amazon-EventBridge_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        subgraph "cluster-SubGraph.CfnControlTowerGuardralis" {
+          graph [
+            label = "CfnControlTowerGuardralis",
+            labelloc = "b",
+            labeljust = "l",
+            margin = "10",
+            fontsize = "16",
+            penwidth = "2",
+            pencolor = "#888888",
+            style = "filled,rounded",
+            fillcolor = "#c7c7c7",
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForEbsOptimizedInstance" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForEc2VolumesInUse" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForEncryptedVolumes" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForIAMUserMFA" [
+            label = " Config ConfigRule\nCheckForIAMUserMFA",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.682,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForIAMUserConsoleMFA" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForRdsPublicAccess" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForPublicRdsSnapshots" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForRdsStorageEncryption" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForRestrictedCommonPortsPolicy" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForRestrictedSshPolicy" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForRootMfa" [
+            label = " Config ConfigRule\nCheckForRootMfa",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.682,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForS3PublicRead" [
+            label = " Config ConfigRule\nCheckForS3PublicRead",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.682,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForS3PublicWrite" [
+            label = " Config ConfigRule\nCheckForS3PublicWrite",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.682,
+          ];
+          "Dev-BLEAGovBaseStandalone/Detection/CfnControlTowerGuardralis/CheckForS3VersioningEnabled" [
+            label = " Config ConfigRule",
+            fontsize = 12,
+            image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Management-Governance/64/Arch_AWS-Config_64@5x.png",
+            imagescale = "true",
+            imagepos = "tc",
+            penwidth = "0",
+            shape = "node",
+            fixedsize = "true",
+            labelloc = "b",
+            width = 1.2,
+            height = 1.466,
+          ];
+        }
+      }
+      subgraph "cluster-SubGraph.Notification" {
+        graph [
+          label = "Notification",
+          labelloc = "b",
+          labeljust = "l",
+          margin = "10",
+          fontsize = "16",
+          penwidth = "2",
+          pencolor = "#888888",
+          style = "filled,rounded",
+          fillcolor = "#d6d6d6",
+        ];
+        "Dev-BLEAGovBaseStandalone/Notification/ChatbotRole" [
+          label = " ChatbotRole",
+          fontsize = 12,
+          image = "/usr/local/share/nvm/versions/node/v20.19.0/lib/node_modules/cdk-dia/icons/aws/Service/Arch_Security-Identity-Compliance/64/Arch_AWS-Identity-and-Access-Management_64@5x.png",
+          imagescale = "true",
+          imagepos = "tc",
+          penwidth = "0",
+          shape = "node",
+          fixedsize = "true",
+          labelloc = "b",
+          width = 1.2,
+          height = 1.466,
+        ];
+        "Dev-BLEAGovBaseStandalone/Notification/ChatbotChannel" [
+          label = " CHATBOT\nChatbotChannel",
+          fontsize = 12,
+        ];
+      }
+    }
+  }
+  "Dev-BLEAGovBaseStandalone/Iam/SysAdminRole" -> "Dev-BLEAGovBaseStandalone/Iam/SysAdminPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Iam/SysAdminGroup" -> "Dev-BLEAGovBaseStandalone/Iam/SysAdminPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Iam/IamAdminRole" -> "Dev-BLEAGovBaseStandalone/Iam/IamAdminPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Iam/IamAdminGroup" -> "Dev-BLEAGovBaseStandalone/Iam/IamAdminPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Iam/InstanceOpsRole" -> "Dev-BLEAGovBaseStandalone/Iam/InstanceOpsPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Iam/InstanceOpsGroup" -> "Dev-BLEAGovBaseStandalone/Iam/InstanceOpsPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Iam/ReadOnlyAdminRole" -> "Dev-BLEAGovBaseStandalone/Iam/ReadOnlyAdminPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Iam/ReadOnlyAdminGroup" -> "Dev-BLEAGovBaseStandalone/Iam/ReadOnlyAdminPolicy" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/CloudTrailAccessLogBucket" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailBucket" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/CloudTrailBucket" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailAccessLogBucket" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/CloudTrailLogGroup" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailKey" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/CloudTrail" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailLogGroup" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/CloudTrail" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailBucket" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/CloudTrail" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailKey" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/ConfigRecorder" -> "Dev-BLEAGovBaseStandalone/Logging/ConfigRole" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/ConfigBucket" -> "Dev-BLEAGovBaseStandalone/Logging/ConfigRole" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Logging/ConfigDeliveryChannel" -> "Dev-BLEAGovBaseStandalone/Logging/ConfigBucket" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/DefaultSgRemediation" -> "Dev-BLEAGovBaseStandalone/Detection/DefaultSgClosedRule" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/DefaultSgRemediation" -> "Dev-BLEAGovBaseStandalone/Detection/DefaultSgRemediationRole" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/SecurityAlarmEmail" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/DefaultSgClosedEventRule" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/AwsHealthEventRule" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/SgChangedEventRule" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/NetworkAclChangeEventRule" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/CloudTrailChangeEventRule" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/IAMPolicyChangeFilter" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailLogGroup" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/IAMPolicyChangeAlarm" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/UnauthorizedAttemptsFilter" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailLogGroup" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/UnauthorizedAttemptsAlarm" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/NewAccessKeyCreatedFilter" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailLogGroup" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/NewAccessKeyCreatedAlarm" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/RootUserActivityFilter" -> "Dev-BLEAGovBaseStandalone/Logging/CloudTrailLogGroup" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/RootUserActivityAlarm" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/SecurityHubEventRule" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Detection/GuardDutyEventRule" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Notification/ChatbotChannel" -> "Dev-BLEAGovBaseStandalone/Detection/AlarmTopic" [
+    dir = "both",
+  ];
+  "Dev-BLEAGovBaseStandalone/Notification/ChatbotChannel" -> "Dev-BLEAGovBaseStandalone/Notification/ChatbotRole" [
+    dir = "both",
+  ];
+}
